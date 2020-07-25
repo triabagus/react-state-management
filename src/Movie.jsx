@@ -1,7 +1,7 @@
 import React from "react";
 const Movie = ({ name, price }) => {
   return (
-    <div>
+    <div className="card neumorphism">
       <h3>{name}</h3>
       <p>{price}</p>
     </div>

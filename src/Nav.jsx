@@ -3,6 +3,7 @@ import { MovieContext } from './MovieContext';
 
 const Nav = () => {
     const [movies, setMovies] = useContext(MovieContext);
+    // const [movies] = useContext(MovieContext);
 
     return (
         <nav>
